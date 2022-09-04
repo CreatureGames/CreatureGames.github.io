@@ -1,4 +1,4 @@
-# Create Games Website
+# Creature Games Website
 
 Built with [Nuxt.js](https://vuejs.org/) on top of [Vue.js](https://vuejs.org/). Uses [Yarn package manager](https://yarnpkg.com/).
 
