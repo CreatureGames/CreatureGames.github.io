@@ -1,0 +1,39 @@
+:root
+  color: $color-fg
+  font-size: 13pt
+  font-family: sans-serif
+
+*
+  box-sizing: border-box
+  font-family: inherit
+  color: inherit
+
+body
+  margin: 0
+  padding: 2em
+  background-image: url('~/assets/images/rocks.png')
+
+nav, main, footer
+  background-color: $color-bg
+  padding: 1em
+  border-radius: .5em
+
+h1, h2, h3, h4
+  color: lighten($color-fg, 14%)
+
+p
+  line-height: 1.6
+
+a
+  color: $color-splash
+  text-decoration: none
+  &:hover
+    color: $color-fg
+  &.nuxt-link-exact-active
+    color: $color-fg
+    text-decoration: underline
+
+ol, ul
+  padding-left: 0
+  li
+    list-style-position: inside
