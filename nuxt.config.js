@@ -1,4 +1,6 @@
 export default {
+  components: true,
+  target: 'static',
   head: {
     title: 'Creature Games Studio',
     meta: [
@@ -6,7 +8,6 @@ export default {
       { viewport: 'width=device-width, initial-scale=1' }
     ]
   },
-  components: true,
   css: [
     '~/assets/sass/main.sass',
     '~/assets/sass/colors.sass'
