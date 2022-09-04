@@ -1,5 +1,6 @@
 {
   "name": "creature-games-website",
+  "license": "MIT-Modern-Variant",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
