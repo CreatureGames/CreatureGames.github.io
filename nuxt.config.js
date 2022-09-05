@@ -6,11 +6,15 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { viewport: 'width=device-width, initial-scale=1' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/creature-icon.png' }
     ]
   },
   css: [
     '~/assets/sass/main.sass',
-    '~/assets/sass/colors.sass'
+    '~/assets/sass/colors.sass',
+    '~/assets/sass/mixins.sass',
   ],
   buildModules: [
     '@nuxt/image',
@@ -19,7 +23,8 @@ export default {
   ],
   styleResources: {
     sass: [
-      '~/assets/sass/colors.sass'
+      '~/assets/sass/colors.sass',
+      '~/assets/sass/mixins.sass',
     ]
   }
 }

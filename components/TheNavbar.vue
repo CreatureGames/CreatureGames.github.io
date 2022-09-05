@@ -2,14 +2,14 @@
   <nav>
     <div>
       <nuxt-img
-        src='/creature-icon.png'
+        src='/creature.gif'
         alt='The Creature logo'
         width='64'
         height='64'
       />
-      <div id='nav-title'>Creature Games Studio</div>
+      <title>Creature Games Studio</title>
     </div>
-    <div id='nav-links'>
+    <div>
       <nuxt-link to='/'>Home</nuxt-link>
       <nuxt-link to='/about'>About</nuxt-link>
     </div>
@@ -18,22 +18,32 @@
 
 <style lang='sass' scoped>
 nav
-  display: flex
-  justify-content: space-between
-  align-items: center
+  &, div
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+
+  &, div:last-of-type
+    gap: 1em
 
   img
-    width: 2em
-    height: 2em
-    margin-right: 1em
+    width: 6em
+    height: 6em
+    image-rendering: pixelated
 
-  #nav-title
+  title
     display: inline-block
-    color: white
     font-size: 2em
-    font-weight: 700
+    text-align: center
 
-  #nav-links
-    display: flex
-    gap: 1em
+@include break-sm
+  nav
+    &, div
+      flex-direction: row
+      gap: 1em
+
+    img
+      width: 3em
+      height: 3em
 </style>
