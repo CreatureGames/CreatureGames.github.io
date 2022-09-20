@@ -7,7 +7,7 @@
         width='64'
         height='64'
       />
-      <title>Creature Games Studio</title>
+      <h1>Creature Games Studio</h1>
     </div>
     <div>
       <nuxt-link to='/'>Home</nuxt-link>
@@ -25,25 +25,26 @@ nav
     align-items: center
 
   &, div:last-of-type
-    gap: 1em
+    gap: 1rem
 
   img
-    width: 6em
-    height: 6em
+    width: 5rem
+    height: 5rem
     image-rendering: pixelated
 
-  title
-    display: inline-block
-    font-size: 2em
+  h1
     text-align: center
 
 @include break-sm
   nav
     &, div
       flex-direction: row
-      gap: 1em
+
+    div:first-of-type
+      gap: 1rem
 
     img
-      width: 3em
-      height: 3em
+      width: 3rem
+      height: 3rem
+
 </style>
