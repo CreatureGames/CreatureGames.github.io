@@ -11,3 +11,8 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# Since I keep switching frameworks... 🤦🏻‍♂️
+/.nuxt/
+/node_modules/
+/dist/
