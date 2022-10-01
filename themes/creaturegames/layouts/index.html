@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ .Content }}
+<main>
+  {{ range .Pages }}
+  <section class='project-summary'>
+    <h2>{{ .Name }}</h2>
+    {{ if .IsNode }}
+    <ul>
+      {{ range .Pages }}
+        <li>{{ .Name }}</li>
+      {{ end }}
+    </ul>
+    {{ else }}
+    <p>{{ .Summary }}</p>
+    <a href="{{ .Permalink }}">Read More</a>
+    {{ end }}
+  </section>
+  {{ end }}
+</main>
+{{ end }}

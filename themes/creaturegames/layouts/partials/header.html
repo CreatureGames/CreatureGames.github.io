@@ -1,0 +1,13 @@
+<header>
+  <nav>
+    {{- if not .IsHome -}}
+    <a href="/">Home</a>
+    {{- end -}}
+    {{ range .Site.Menus.main }}
+    <a href="{{ .URL }}">
+    {{ $text := print .Name | safeHTML }}
+    {{ $text }}
+    </a>
+    {{ end }}
+  </nav>
+</header>
