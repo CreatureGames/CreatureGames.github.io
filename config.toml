@@ -2,4 +2,3 @@ baseURL = 'http://creaturegamesstudio.com/'
 languageCode = 'en-us'
 title = 'Creature Games Studio'
 theme = "creaturegames"
-sectionPagesMenu = "main"

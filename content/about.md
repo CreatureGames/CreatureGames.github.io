@@ -3,6 +3,7 @@ title: "About"
 date: 2022-09-30T20:12:15-07:00
 draft: false
 summary: It all started with a game called The Creature...
+menu: main
 ---
 
 ## Origins
