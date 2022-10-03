@@ -1,0 +1,13 @@
+<header class="pad-xy">
+  <div id="navbar" class="flex page-width">
+    <img src="/the-creature.gif" alt="The Creature smiling" >
+    <nav class="flex gap-1">
+      {{ range .Site.Menus.main.Reverse }}
+        <a href="{{ .URL }}">
+        {{ $text := print .Name | safeHTML }}
+        {{ $text }}
+        </a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

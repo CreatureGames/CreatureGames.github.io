@@ -1,0 +1,4 @@
+baseURL = 'https://creaturegames.github.io/'
+languageCode = 'en-us'
+title = 'Creature Games Studio'
+theme = "creaturegames"

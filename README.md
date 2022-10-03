@@ -1,23 +1,17 @@
-# Creature Games Website
+# Creature Games Studio Website
 
-Built with [Nuxt.js](https://vuejs.org/) on top of [Vue.js](https://vuejs.org/). Uses [Yarn package manager](https://yarnpkg.com/).
+Powered by [Hugo](https://gohugo.io/).
 
-## Structure
+## Content Structure
 
-To change website content, edit the Markdown file in the `content/` folder that corresponds with the page you want to update.
+TODO: add instructions here.
 
 ## Development
 
-Make sure you have [Yarn](https://yarnpkg.com/) installed.
+Run development server:
 
-### Install Dependencies
+```hugo server```
 
-```bash
-yarn
-```
+Build static site (exports to `/public`):
 
-### Run Development Server
-
-```bash
-yarn dev
-```
+```hugo```

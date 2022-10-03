@@ -1,4 +1,18 @@
-node_modules
-.vscode
-.nuxt
-dist
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
+
+# Since I keep switching frameworks... 🤦🏻‍♂️
+/.nuxt/
+/node_modules/
+/dist/
