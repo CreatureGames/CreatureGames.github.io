@@ -7,21 +7,19 @@
     {{ range .Pages }}
 
       <section class="flex col gap-1">
-        <h2>{{ .Name }}</h2>
+        <h2><a href="{{ .Permalink }}">{{ .Name }}</a></h2>
         {{ if .IsNode }}
           <div class="flex col gap-2">
             {{ range .Pages }}
               <div class="flex col gap-1">
-                <h3>{{ .Name }}</h3>
+                <h3><a href="{{ .Permalink }}">{{ .Name }}</a></h3>
                 {{ .Summary }}
-                <a href="{{ .Permalink }}">Read More</a>
               </div>
             {{ end }}
           </div>
 
         {{ else }}
           <p>{{ .Summary }}</p>
-          <a href="{{ .Permalink }}">Read More</a>
 
         {{ end }}
       </section>
