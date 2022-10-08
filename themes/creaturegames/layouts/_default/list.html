@@ -1,9 +1,10 @@
 {{ define "main" }}
 <main class="page-width flex col gap-2">
+  {{- if .Content -}}
   <article>
     <h1>{{.Title}}</h1>
-    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
     {{.Content}}
+  {{- end -}}
   </article>
   <div class="flex col gap-2">
     {{ range .Pages }}

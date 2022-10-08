@@ -7,9 +7,9 @@ draft: false
 The Creature was created over the course of 5 days for the Week Sauce game jam during spring break of 2022. Play it online [here](https://supergobo.itch.io/the-creature)!
 
 {{< image-grid 3 >}}
-{{< figure src="/the-creature-menu.jpg" >}}
-{{< figure src="/the-creature-cave.png" >}}
-{{< figure src="/the-creature-crystal-sky.png" >}}
+{{< figure src="/the-creature/menu.jpg" >}}
+{{< figure src="/the-creature/cave.png" >}}
+{{< figure src="/the-creature/crystal-sky.png" >}}
 {{< /image-grid >}}
 
 <!--more-->
