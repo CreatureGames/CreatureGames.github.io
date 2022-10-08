@@ -173,6 +173,10 @@ div.image-grid {
     padding: 1rem;
   }
 
+  header .title > div {
+    display: none;
+  }
+
   div.image-grid {
     grid-template-columns: 1fr !important;
   }
