@@ -1,29 +1,10 @@
 {{ define "main" }}
-<main class="page-width flex col">
+<main class="page-width flex col gap-2">
   <div class="flex col gap-1 pad-y">
     {{ .Content }}
   </div>
-  <div class="flex col gap-2 ctr pad-y ">
-    {{ range .Pages }}
-
-      <section class="flex col gap-1">
-        <h2><a href="{{ .Permalink }}">{{ .Name }}</a></h2>
-        {{ if .IsNode }}
-          <div class="flex col gap-2">
-            {{ range .Pages }}
-              <div class="flex col gap-1">
-                <h3><a href="{{ .Permalink }}">{{ .Name }}</a></h3>
-                {{ .Summary }}
-              </div>
-            {{ end }}
-          </div>
-
-        {{ else }}
-          <p>{{ .Summary }}</p>
-
-        {{ end }}
-      </section>
-    {{ end }}
-  </div>
+  {{- with .Site.GetPage "/games" -}}
+  {{- partial "gameslist" . -}}
+  {{- end -}}
 </main>
 {{ end }}

@@ -1,6 +1,9 @@
 <header class="pad-xy">
-  <div id="navbar" class="flex page-width">
-    <img src="/the-creature.gif" alt="The Creature smiling" >
+  <div class="flex align page-width">
+    <a class="title flex align gap-1" href="/">
+      <img src="/the-creature.gif" alt="The Creature smiling" >
+      <div>Creature Games</div>
+    </a>
     <nav class="flex gap-1">
       {{ range .Site.Menus.main.Reverse }}
         <a href="{{ .URL }}">
