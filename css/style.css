@@ -129,6 +129,7 @@ div.image-grid {
 
 .profile img {
   width: 4rem;
+  image-rendering: pixelated;
 }
 
 .page-width {
@@ -182,7 +183,7 @@ div.image-grid {
   }
 
   footer > div.flex {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
 }
