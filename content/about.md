@@ -9,31 +9,31 @@ menu: main
 ## Meet the Team!
 
 {{< profile
-  img="/creature-icon.png"
+  img="/profiles/coffee.gif"
   name="Rylan"
   bio="A programmer and artist."
 >}}
 
 {{< profile
-  img="/creature-icon.png"
+  img="/profiles/code.gif"
   name="Josh"
   bio="A wizard with code."
 >}}
 
 {{< profile
-  img="/creature-icon.png"
+  img="/profiles/animate.gif"
   name="Isiah"
   bio="The illusionist of life."
 >}}
 
 {{< profile
-  img="/creature-icon.png"
+  img="/profiles/music.gif"
   name="Em"
   bio="The musical extraordinaire."
 >}}
 
 {{< profile
-  img="/creature-icon.png"
+  img="/profiles/paint.gif"
   name="Kaylie"
   bio="Our resident HD artist and vet tech."
 >}}
