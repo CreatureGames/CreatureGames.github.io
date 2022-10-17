@@ -22,7 +22,7 @@ menu: main
 
 {{< profile
   img="/profiles/animate.gif"
-  name="Isiah"
+  name="Isaiah"
   bio="The illusionist of life."
 >}}
 
