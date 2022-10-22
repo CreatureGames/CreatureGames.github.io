@@ -1,9 +1,9 @@
 :root {
-  --clr-bg-1: #1b1d29;
-  --clr-bg-2: #3e4546;
-  --clr-fg-1: #f0f3f8;
-  --clr-fg-2: #c1ceeb;
-  --clr-link: #9774da;
+  --clr-bg-1: #dedce5;
+  --clr-bg-2: #c5bdc7;
+  --clr-fg-1: #231b29;
+  --clr-fg-2: #3c383c;
+  --clr-link: #5d2d72;
   --page-width: 48rem;
 }
 
@@ -36,17 +36,18 @@ h1, h2, h3 {
   color: var(--clr-fg-1);
 }
 
+a {
+  transition: 500ms;
+}
+
 nav a {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: .1em;
-  transition: 500ms;
 }
 
 nav a:hover {
-  text-decoration: underline;
-  color: var(--clr-fg-1);
-  transition: 50ms;
+  color: var(--clr-link);
 }
 
 h1 a, h2 a, h3 a {
@@ -58,7 +59,8 @@ p a {
 }
 
 a:hover {
-  opacity: .8;
+  transition: 100ms;
+  opacity: .7;
 }
 
 p {
@@ -98,6 +100,7 @@ header .title {
   font-size: 2rem;
   font-weight: 700;
   text-decoration: none;
+  color: var(--clr-fg-1);
 }
 
 header > div {
@@ -125,10 +128,13 @@ div.image-grid {
   display: grid;
   grid-template-columns: max-content 1fr;
   gap: 1rem;
+  background-color: var(--clr-bg-2);
+  padding: 1rem;
 }
 
 .profile img {
-  width: 4rem;
+  width: 80px;
+  height: auto;
   image-rendering: pixelated;
 }
 
@@ -186,4 +192,17 @@ div.image-grid {
     flex-direction: column-reverse;
   }
 
+  .profile {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 1rem;
+  }
+
+  .profile img {
+    width: 120px;
+  }
+
+  .profile .text {
+    width: 100%;
+  }
 }
