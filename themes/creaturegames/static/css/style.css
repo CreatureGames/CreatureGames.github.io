@@ -31,9 +31,10 @@ header, footer {
 }
 
 h1, h2, h3 {
-  font-family: 'Inder', sans-serif;
+  font-family: 'Heebo', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   letter-spacing: .02em;
   color: var(--clr-fg-1);
+  font-weight: 500;
 }
 
 a {
@@ -97,8 +98,9 @@ header {
 }
 
 header .title {
+  font-family: 'Reem Kufi', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 800;
   text-decoration: none;
   color: var(--clr-fg-1);
 }

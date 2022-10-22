@@ -35,7 +35,7 @@ menu: main
 {{< profile
   img="/profiles/paint.gif"
   name="Kaylie"
-  bio="Our resident HD artist and vet tech."
+  bio="Hello there! I'm the HD artist, animal enthusiast, and newest creative of the CGS team. Like most digital artists, my origins began with Microsoft Paint, where long hours of mindless scribbles and computer eye strain would ensue. I finally upgraded to a different graphic software in September 2019, and have been drawing digitally since. When I'm not inflicting carpal tunnel upon myself, you'll find me visiting with friends or spoiling my house rabbit, Bluebell."
 >}}
 
 ## Origins
