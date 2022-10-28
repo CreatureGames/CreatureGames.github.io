@@ -1,9 +1,9 @@
 :root {
   --clr-bg-1: #dedce5;
-  --clr-bg-2: #c5bdc7;
+  --clr-bg-2: #D3C9D9;
   --clr-fg-1: #231b29;
   --clr-fg-2: #3c383c;
-  --clr-link: #5d2d72;
+  --clr-link: #7558AC;
   --page-width: 48rem;
 }
 
@@ -47,10 +47,6 @@ nav a {
   letter-spacing: .1em;
 }
 
-nav a:hover {
-  color: var(--clr-link);
-}
-
 h1 a, h2 a, h3 a {
   text-decoration: none;
 }
@@ -62,6 +58,8 @@ p a {
 a:hover {
   transition: 100ms;
   opacity: .7;
+  color: var(--clr-link);
+  scale: 1.05;
 }
 
 p {
