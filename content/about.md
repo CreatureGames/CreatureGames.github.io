@@ -29,7 +29,7 @@ menu: main
 {{< profile
   img="/profiles/music.gif"
   name="Em"
-  bio="The musical extraordinaire."
+  bio="Hi, I’m Em! I compose the soundtracks for Creature Games Studios. Music has been a part of my life ever since I can remember; I began piano lessons when I was about eight years old, and through the years I’ve studied music in private lessons and in college, been involved in choirs, drum circles, and collaborative projects with friends. One of my favorite parts of composing is that magical moment when you first add music to something and it breathes a whole new dimension of life into it. When I’m not lost in the realm of composing, you can find me climbing trees, petting cats, dancing my heart out to EDM, and chilling with my friends."
 >}}
 
 {{< profile
