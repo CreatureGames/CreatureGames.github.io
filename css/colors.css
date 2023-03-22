@@ -1,0 +1,16 @@
+:root {
+  --clr-bg-1: #e9e7ea;
+  --clr-bg-2: #e1cedb;
+  --clr-fg-1: #27212c;
+  --clr-fg-2: #4f4b4f;
+  --clr-link: #7558AC;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-bg-1: #373739;
+    --clr-bg-2: #2a282b;
+    --clr-fg-1: #d7cede;
+    --clr-fg-2: #dfd2df;
+    --clr-link: #b085ff;
+  }
+}
