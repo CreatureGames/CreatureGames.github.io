@@ -7,11 +7,11 @@ draft: false
 A work-in-progress since June of 2022, [The Memory Machine](/games/the-memory-machine) is set to be released late in the summer of 2023. Follow the game's development on [our Instagram page](https://www.instagram.com/creaturegamesstudio/)!
 
 {{< image-grid 3 >}}
-{{< figure src="/the-memory-machine/town.png" >}}
-{{< figure src="/the-memory-machine/arthur-n-timmy.jpg" >}}
-{{< figure src="/the-memory-machine/machine.png" >}}
+{{< figure src="/the-memory-machine/overlook.png" >}}
+{{< figure src="/the-memory-machine/dialogue.jpg" >}}
+{{< figure src="/the-memory-machine/emma_field.png" >}}
 {{< /image-grid >}}
 
 <!--more-->
 
-Check back later for more info on the game!
+Set in a world where memories are a source of energy, Arthur must help the townspeople reclaim their past. Along the way he will befriend talking vegetables, explore a magical forest, and uncover the town's mysterioius history.

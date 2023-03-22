@@ -118,11 +118,25 @@ div.image-grid {
 }
 
 @media (max-width: 500px) {
+  header .hide-sm {
+    display: none;
+  }
   #content {
     padding: 1rem;
   }
-
   div.image-grid {
     grid-template-columns: 1fr !important;
+  }
+  .flex.row.collapse-sm {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  header .hide-md {
+    display: none;
+  }
+  .flex.row.collapse-md {
+    flex-direction: column;
   }
 }

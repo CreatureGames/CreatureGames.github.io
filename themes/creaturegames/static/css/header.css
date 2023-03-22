@@ -34,7 +34,7 @@ header img {
 }
 
 @media (max-width: 500px) {
-  header .title > div {
-    display: none;
+  header img {
+    height: 3rem;
   }
 }

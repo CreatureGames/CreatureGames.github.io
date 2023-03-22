@@ -1,7 +1,11 @@
 {{ define "main" }}
 <main class="page-width flex col gap-2">
-  <div class="flex col gap-1 pad-y">
-    {{ .Content }}
+  <div class="flex row collapse-md gap-2 pad-y">
+    <img src="/the-creature/love.gif" alt="" style="image-rendering: crisp-edges; width: 480">
+    <div class="flex col gap-1">
+      <h1>An unlikely team<br class="hide-md">making likable games</h1>
+      <p>Our team comes from all sorts of backgrounds, from engineering to veterinary work. To learn more about our band of misfits, check out the <a href="/about">about page</a>.</p>
+    </div>
   </div>
   {{- with .Site.GetPage "/games" -}}
   {{- partial "gameslist" . -}}

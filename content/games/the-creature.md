@@ -16,6 +16,10 @@ draft: false
 
 This was the first game our team finished together and remains the namesake for the studio. It was created using the [Godot](https://godotengine.org/) game engine.
 
+{{< image-grid 1 >}}
+{{< figure src="/the-creature/love.gif" >}}
+{{< /image-grid >}}
+
 ## Credits
 
 - Programming: Josh and Rylan
