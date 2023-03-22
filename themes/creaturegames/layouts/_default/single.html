@@ -4,7 +4,9 @@
 {{ end }}
 {{ define "main" }}
 <main class="page-width flex col gap-1">
-  <h1>{{ .Title }}</h1>
+  {{- if ne (lower .Title) "about" -}}
+    <h1>{{ .Title }}</h1>
+  {{- end -}}
   {{ .Content }}
 </main>
 {{ end }}

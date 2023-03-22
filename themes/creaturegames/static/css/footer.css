@@ -1,0 +1,20 @@
+footer {
+  background-color: var(--clr-bg-2);
+  color: var(--clr-fg-2);
+}
+
+footer > div.flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer svg {
+  height: 2rem;
+  fill: currentColor;
+}
+
+@media (max-width: 500px) {
+  footer > div.flex {
+    flex-direction: column-reverse;
+  }
+}
