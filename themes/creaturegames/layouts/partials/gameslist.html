@@ -4,7 +4,13 @@
   <div class="flex col gap-2">
     {{ range .Pages.ByDate.Reverse }}
       <div class="flex col gap-1">
-        <h3><a href="{{ .Permalink }}">{{ .Name }}</a></h3>
+        <h3>
+          {{ if .Permalink }}
+            <a href="{{ .Permalink }}">{{ .Name }}</a>
+          {{ else }}
+            <span>{{ .Name }}</span>
+          {{ end }}
+        </h3>
         {{ .Summary }}
       </div>
     {{ end }}

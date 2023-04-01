@@ -24,12 +24,13 @@ h1, h2, h3 {
   letter-spacing: .02em;
   color: var(--clr-fg-1);
   font-weight: 700;
-  font-size: x-large;
 }
 
-a {
-  transition: 500ms;
-}
+h1 { font-size: xx-large }
+h2 { font-size: x-large }
+h3 { font-size: large }
+
+a { transition: 500ms }
 
 nav a {
   text-transform: uppercase;
