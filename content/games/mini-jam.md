@@ -12,21 +12,21 @@ Over the weekend of August 4-6, our team took a break from developing _The Memor
 Be sure to play our games and let us know what you think!
 
 {{< image-grid 3 >}}
-  <a href="https://supergobo.itch.io/out-of-thyme" target="_blank" style="text-align: center">
+  <a href="https://supergobo.itch.io/out-of-thyme" target="_blank">
     {{<
       figure
       src="https://img.itch.zone/aW1nLzEzMDUxNzM3LnBuZw==/315x250%23c/ojlAZb.png"
       caption="Out of Thyme, by Rylan"
     >}}
   </a>
-  <a href="https://paperish.itch.io/time-wizard" target="_blank" style="text-align: center">
+  <a href="https://paperish.itch.io/time-wizard" target="_blank">
     {{<
       figure
       src="https://img.itch.zone/aW1nLzEzMDUxMDczLnBuZw==/315x250%23c/IE1Xr6.png"
       caption="Time Wizard, by Josh"
     >}}
   </a>
-  <a href="https://whistlingnomad.itch.io/time-to-die" target="_blank" style="text-align: center">
+  <a href="https://whistlingnomad.itch.io/time-to-die" target="_blank">
     {{<
       figure
       src="https://img.itch.zone/aW1nLzEzMDUzMDgwLnBuZw==/315x250%23c/LPhhbx.png"

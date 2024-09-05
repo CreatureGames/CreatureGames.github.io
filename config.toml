@@ -1,4 +1,4 @@
-baseURL = 'https://www.creaturegamesstudio.com/'
-languageCode = 'en-us'
-title = 'Creature Games'
+baseURL = "https://www.creaturegamesstudio.com/"
+languageCode = "en-us"
+title = "Creature Games"
 theme = "creaturegames"

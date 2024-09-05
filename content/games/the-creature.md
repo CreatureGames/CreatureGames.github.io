@@ -4,7 +4,7 @@ date: 2022-09-30T20:12:45-07:00
 draft: false
 ---
 
-[The Creature](/games/the-creature) was created over the course of 5 days for the Week Sauce game jam during spring break of 2022. Play the finished game [on Itch.io](https://creature-games.itch.io/the-creature)!
+The Creature was created over the course of 5 days for the Week Sauce game jam during spring break of 2022. Play the finished game [on Itch.io](https://creature-games.itch.io/the-creature)!
 
 {{< image-grid 3 >}}
 {{< figure src="/the-creature/menu.jpg" >}}

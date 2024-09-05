@@ -1,18 +1,14 @@
 {{ define "main" }}
-<main class="page-width flex col gap-2">
-  {{- if .Content -}}
-  <article>
-    <h1>{{.Title}}</h1>
-    {{.Content}}
-  {{- end -}}
-  </article>
-  <div class="flex col gap-2">
-    {{ range .Pages }}
-      <div class="flex col gap-1">
-      <h3><a href="{{ .Permalink }}">{{ .Name }}</a></h3>
-      {{ .Summary }}
-      </div>
-    {{ end }}
-  </div>
-</main>
+  <main>
+    {{- if .Content -}}
+      <article class="page-width">
+        {{.Content}}
+      </article>
+    {{- end -}}
+    <section class="page-width">
+      {{ range .Pages.ByDate.Reverse }}
+        {{ partial "card.html" (dict "title" .Name "href" .Permalink "text" .Summary "date" .Date) }}
+      {{ end }}
+    </section>
+  </main>
 {{ end }}

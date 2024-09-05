@@ -1,0 +1,14 @@
+<div class="card">
+  <h3 class="title">
+    <span>{{ .title }}</span>
+    {{ if .href }}
+      <a href="{{ .href }}">Check it out</a>
+    {{ end }}
+  </h3>
+  {{ if .date }}
+    <p style="opacity: .5; margin-top: -1rem">
+      {{ .date.Format "January 2, 2006" }}
+    </p>
+  {{ end }}
+  {{ .text }}
+</div>

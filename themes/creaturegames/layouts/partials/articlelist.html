@@ -1,0 +1,5 @@
+<section class="page-width">
+  {{ range .Pages.ByDate.Reverse }}
+    {{ partial "card.html" (dict "title" .Name "href" .Permalink "text" .Summary) }}
+  {{ end }}
+</section>
