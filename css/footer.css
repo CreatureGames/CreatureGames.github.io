@@ -1,6 +1,5 @@
 footer {
-  background-color: var(--clr-bg-2);
-  color: var(--clr-fg-2);
+  color: var(--foreground-secondary);
 }
 
 footer > div.flex {
@@ -9,7 +8,7 @@ footer > div.flex {
 }
 
 footer svg {
-  height: 2rem;
+  height: calc(var(--spacing) * 1.5);
   fill: currentColor;
 }
 

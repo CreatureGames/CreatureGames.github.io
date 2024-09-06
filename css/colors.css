@@ -1,16 +1,18 @@
 :root {
-  --clr-bg-1: #e9e7ea;
-  --clr-bg-2: #e1cedb;
-  --clr-fg-1: #27212c;
-  --clr-fg-2: #4f4b4f;
-  --clr-link: #7558AC;
+  --background-primary: #fafaff;
+  --background-secondary: #e7e3f0;
+  --background-card: color-mix(in hsl, var(--background-primary), var(--background-secondary) 35%);
+  --foreground-primary: #30343f;
+  --foreground-secondary: #1e2749;
+  --link: #7b2cbf;
 }
-@media (prefers-color-scheme: dark) {
+
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --clr-bg-1: #373739;
-    --clr-bg-2: #2a282b;
-    --clr-fg-1: #e5deea;
-    --clr-fg-2: #dfd2df;
-    --clr-link: #b085ff;
+    --background-primary: #373739;
+    --background-secondary: #2a282b;
+    --foreground-primary: #e5deea;
+    --foreground-secondary: #dfd2df;
+    --link: #b085ff;
   }
-}
+} */

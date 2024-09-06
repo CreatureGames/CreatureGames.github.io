@@ -1,27 +1,44 @@
 .profile {
   display: grid;
   grid-template-columns: max-content 1fr;
-  gap: 1rem;
-  background-color: var(--clr-bg-2);
-  padding: 1.5rem;
-  border-radius: .5rem;
+  gap: calc(var(--spacing) * 1.5);
+  background-color: var(--background-card);
+  padding: calc(var(--spacing) * 1.5);
+  margin: var(--spacing) 0;
+  border-radius: var(--border-radius);
 }
 
 .profile img {
-  width: 80px;
+  background-color: var(--background-secondary);
+  background-color: color-mix(in srgb, var(--background-secondary), var(--foreground-secondary) 20%);
+  width: 6em;
   height: auto;
   image-rendering: pixelated;
+}
+
+.profile .text h3 {
+  margin-bottom: var(--spacing);
+}
+
+.profile .text > *:first-child {
+  margin-top: 0;
+}
+
+.profile .text > *:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 500px) {
   .profile {
     grid-template-columns: 1fr;
     place-items: center;
-    gap: 1rem;
+    gap: var(--spacing);
   }
 
   .profile img {
-    width: 120px;
+    width: 100%;
+    height: 6em;
+    object-fit: contain;
   }
 
   .profile .text {

@@ -1,0 +1,7 @@
+.hero {
+  margin: calc(var(--spacing) * 2) auto;
+}
+
+.hero > .text {
+  max-width: var(--page-width);
+}
