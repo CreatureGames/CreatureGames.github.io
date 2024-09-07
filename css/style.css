@@ -66,16 +66,10 @@ p {
   margin: var(--spacing) 0 calc(var(--spacing) * 1.5);
 }
 
-img {
+img, video, figure {
   width: 100%;
   height: auto;
   border-radius: var(--border-radius);
-}
-
-figure {
-  width: 100%;
-  height: auto;
-  margin: 0;
 }
 
 ul {
@@ -99,6 +93,7 @@ hr {
   display: grid;
   place-items: center;
   gap: var(--spacing);
+  margin: var(--spacing) 0;
 }
 
 .image-grid p {
@@ -159,7 +154,7 @@ hr {
     display: none;
   }
 
-  div.image-grid {
+  .image-grid {
     grid-template-columns: 1fr !important;
   }
 

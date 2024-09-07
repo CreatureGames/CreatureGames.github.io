@@ -7,12 +7,12 @@
   --link: #7b2cbf;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --background-primary: #373739;
-    --background-secondary: #2a282b;
-    --foreground-primary: #e5deea;
-    --foreground-secondary: #dfd2df;
-    --link: #b085ff;
+    --background-primary: #373941;
+    --background-secondary: #1e1e1f;
+    --foreground-primary: #fafaff;
+    --foreground-secondary: #d3cedf;
+    --link: #b170eb;
   }
-} */
+}
