@@ -9,4 +9,4 @@ menu: main
 
 Since 2022, our team has been building games that make us happy.
 
-We are focused on improving our skills and enjoying the game dev process. We come from all sorts of backgrounds, from electrical engineering to veterinary work. To learn more about our band of misfits, check out the [about page](/about).
+We come from all sorts of backgrounds, from electrical engineering to veterinary work. We are focused on improving our skills and enjoying the game dev process. To learn more about our band of misfits, check out the [about page](/about).

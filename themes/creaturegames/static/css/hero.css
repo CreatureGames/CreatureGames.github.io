@@ -1,7 +1,19 @@
 .hero {
   margin: calc(var(--spacing) * 2) auto;
+  padding: 0 var(--spacing);
 }
 
-.hero > .text {
-  max-width: var(--page-width);
+.hero .text h1 {
+  max-width: calc(var(--page-width) * .6);
+}
+
+.hero .text p {
+  max-width: calc(var(--page-width) * .8);
+}
+
+/* WARNING: copied from vars.css */
+@media (max-width: 48rem) {
+  .hero {
+    padding: 0;
+  }
 }
