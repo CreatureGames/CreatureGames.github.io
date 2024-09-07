@@ -2,7 +2,7 @@
 title: "Prepping for Steam"
 date: 2024-09-05T15:49:15-07:00
 author: Rylan
-draft: true
+draft: false
 _build:
   list: true
   render: true

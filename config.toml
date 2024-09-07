@@ -2,3 +2,7 @@ baseURL = "https://www.creaturegamesstudio.com/"
 languageCode = "en-us"
 title = "Creature Games"
 theme = "creaturegames"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
