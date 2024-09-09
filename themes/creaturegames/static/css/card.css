@@ -14,14 +14,14 @@
 }
 
 .card .title {
-  position: relative;
+  display: flex;
+  gap: var(--spacing);
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card .title a {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  font-size: .5em;
+  font-size: 1rem;
   text-transform: uppercase;
+  white-space: nowrap;
 }
