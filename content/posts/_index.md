@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 date: 2024-09-05T15:49:15-07:00
-draft: false
+draft: true
 menu: main
 ---
 
