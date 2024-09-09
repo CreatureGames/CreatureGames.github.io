@@ -40,7 +40,7 @@ menu: main
 
 ## Origins
 
-Over Christmas break in 2021, Rylan and Josh decided to try making a game together. They had both worked on games before but never with a team. They chose a game jam to enter, cleared their schedules, and got to work coding a game about exposing The Grinch as a fake mall Santa. Even though that project [was never finished](/games/save-christmas/), it sparked an interest in collaborative game development.
+Over Christmas break in 2021, Rylan and Josh decided to try making a game together. They had both worked on games before but never with a team. They chose a game jam to enter, cleared their schedules, and got to work coding a game about exposing The Grinch as a fake mall Santa. Even though <a href="/games/save-christmas/" style="color:inherit;text-decoration:none">that project</a> was never finished, it sparked an interest in collaborative game development.
 
 Fast-forward to spring break when Rylan convinced Isaiah to join a project. The three amigos joined the "Week Sauce" game jam with a theme of _energy_ and made a game about friendship and cooperation. [The Creature](/games/the-creature/) was made over the course of 5 days, fueled by a lot of coffee, and laid the roots for Creature Games Studio.
 
