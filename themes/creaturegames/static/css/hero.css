@@ -8,7 +8,7 @@
 }
 
 .hero .text p {
-  max-width: calc(var(--page-width) * .8);
+  max-width: calc(var(--page-width) * .675);
 }
 
 /* WARNING: copied from vars.css */
