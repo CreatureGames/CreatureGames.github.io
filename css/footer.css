@@ -7,11 +7,6 @@ footer > div.flex {
   align-items: center;
 }
 
-footer svg {
-  height: calc(var(--spacing) * 1.5);
-  fill: currentColor;
-}
-
 @media (max-width: 500px) {
   footer > div.flex {
     flex-direction: column-reverse;

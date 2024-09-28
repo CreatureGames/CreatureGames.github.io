@@ -40,8 +40,27 @@ h3 {
 }
 
 a {
+  --px: 6px;
+  --py: 4px;
   color: var(--link);
-  transition: 500ms;
+  transition: 300ms ease-out;
+  border-style: solid;
+  border-color: transparent;
+  border-top-width: var(--py);
+  border-bottom-width: var(--py);
+  border-left-width: var(--px);
+  border-right-width: var(--px);
+  margin: calc(-1 * var(--py)) calc(-1 * var(--px));
+  border-radius: var(--border-radius);
+  background-color: transparent;
+  text-decoration: none;
+  letter-spacing: .03em;
+}
+
+p a {
+  --px: 3px;
+  --py: 3px;
+  letter-spacing: inherit;
 }
 
 nav a {
@@ -56,9 +75,10 @@ h1 a, h2 a, h3 a {
 }
 
 a:is(:hover, :focus) {
-  transition: 0ms;
-  color: var(--link);
-  color: color-mix(in srgb, var(--link), var(--background-primary) 50%);
+  transition: 60ms ease-out;
+  color: color-mix(in srgb, var(--link), var(--foreground-secondary) 50%);
+  background-color: color-mix(in srgb, var(--link), transparent 90%);
+  outline: none; /* resets default anchor styles */
 }
 
 p {
@@ -105,6 +125,38 @@ hr {
   width: min(var(--page-width), 100%);
   margin-left: auto;
   margin-right: auto;
+}
+
+button, a.button {
+  display: block;
+  background: color-mix(in srgb, var(--link), transparent 85%);
+  background: linear-gradient(to top, color-mix(in srgb, var(--link), var(--background-secondary) 40%), color-mix(in srgb, var(--link), var(--background-secondary) 50%));
+  color: var(--link);
+  color: color-mix(in srgb, var(--link), var(--background-primary) 100%);
+  padding: var(--spacing) calc(var(--spacing) * 1.5);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  font-family: 'Heebo', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  outline: 1px solid var(--link);
+  transition: 300ms ease-out;
+  margin: 0; /* resets default anchor styles */
+  box-shadow: 0 0.1rem 0.1rem color-mix(in srgb, var(--foreground-primary), transparent 95%);
+
+  &:is(:active, :hover, :focus) {
+    transition: 60ms ease-out;
+    background: color-mix(in srgb, var(--link), transparent 70%);
+    background: linear-gradient(to top, color-mix(in srgb, var(--link), var(--background-secondary) 40%), color-mix(in srgb, var(--link), var(--background-secondary) 30%));
+    color: color-mix(in srgb, var(--link), var(--foreground-secondary) 50%);
+    color: color-mix(in srgb, var(--link), var(--background-primary) 100%);
+    outline-color: var(--link);
+    box-shadow: -0.1rem 0.2rem 0.3rem color-mix(in srgb, var(--foreground-primary), transparent 80%);
+  }
 }
 
 .flex {
